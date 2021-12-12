@@ -2,3 +2,5 @@
 label: Test
 hide_body: true
 fields: []
+pages:
+- src/content/Test post.md
