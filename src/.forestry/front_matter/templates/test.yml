@@ -11,5 +11,14 @@ fields:
   config:
     required: false
   label: Text
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
 pages:
 - src/content/Test post.md
