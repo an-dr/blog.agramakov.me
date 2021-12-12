@@ -1,6 +1,15 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: text
+  type: text
+  config:
+    required: false
+  label: Text
 pages:
 - src/content/Test post.md
