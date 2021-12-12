@@ -20,5 +20,12 @@ fields:
     schema:
       format: markdown
   label: Body
+- name: test
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Test
 pages:
 - src/content/Test post.md
